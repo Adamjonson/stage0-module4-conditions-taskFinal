@@ -12,7 +12,7 @@ public class CoordinatePane {
             System.out.println("third");
         }
         if(x>0 && y<0){
-            System.out.println("forth");
+            System.out.println("fourth");
         }
         if(x==0 && y==0){
             System.out.println("zero");

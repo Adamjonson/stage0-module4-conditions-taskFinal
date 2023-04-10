@@ -43,7 +43,7 @@ public class DaysInMonth {
                 System.out.println("28");
                 break;
             default:
-                System.out.println("wrong number!");
+                System.out.println("invalid date");
         }
     }
         public void amountOfDaysLeap(int month) {
@@ -67,7 +67,7 @@ public class DaysInMonth {
                     System.out.println("29");
                     break;
                 default:
-                    System.out.println("wrong number!");
+                    System.out.println("invalid date");
             }
         }
     public void printDays(int year, int month) {
