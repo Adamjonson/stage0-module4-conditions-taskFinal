@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.finalTask;
 public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
         float result = (float) dividend / divider;
-        if (divider * result == (float) dividend){
+        if (divider * (int) result == dividend){
             System.out.println("can be divided completely");
         }else {
             if (Float.isInfinite(result)){
